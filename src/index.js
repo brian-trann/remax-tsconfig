@@ -59,7 +59,7 @@ const prettierFolderPath = path.resolve(__dirname, "prettier");
 
   if (makePrettierRc) {
     const prettierRcData = await readFile(path.join(prettierFolderPath, "prettierrc.json")).catch(console.log);
-    const prettierRcPath = path.join(process.cwd(), "prettierrc.json");
+    const prettierRcPath = path.join(process.cwd(), ".prettierrc.json");
 
     await writeFile(prettierRcPath, prettierRcData).catch((e) => {
       console.log(e);

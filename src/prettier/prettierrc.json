@@ -1,11 +1,9 @@
 {
-  "printWidth": 80,
-  "tabWidth": 2,
-  "useTabs": false,
+  "quoteProps": "preserve",
+  "printWidth": 120,
+  "proseWrap": "never",
   "semi": false,
   "singleQuote": true,
-  "trailingComma": "all",
-  "bracketSpacing": false,
-  "jsxBracketSameLine": false,
-  "proseWrap": "always"
+  "tabWidth": 4,
+  "trailingComma": "es5"
 }
